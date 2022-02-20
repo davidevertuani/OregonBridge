@@ -1,0 +1,32 @@
+#######################################
+# Syntax Coloring Map For OregonBridge
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+OregonBridge	KEYWORD1
+Device          KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+externalInterrupt	KEYWORD2
+registerCallback    KEYWORD2
+getOsVersion        KEYWORD2
+getRemoteModel	    KEYWORD2
+getId		        KEYWORD2
+getChannel	        KEYWORD2
+getTemperature	    KEYWORD2
+getHumidity	        KEYWORD2
+getBattery	        KEYWORD2
+registerCallback    KEYWORD2
+loop                KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+orbridge    KEYWORD2

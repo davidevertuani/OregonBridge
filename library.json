@@ -1,0 +1,39 @@
+{
+  "name": "Oregon",
+  "keywords": "Oregon, scientific, 433Mhz, temperature, humidity, battery, THN132N, THGR228N",
+  "description": "Receive and decode data packets from v1 and v2 Oregon Scientific remote 433MHz sensors.",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/davidevertuani/OregonBridge.git"
+  },
+  "authors": 
+  [
+    {
+      "name": "Davide Vertuani",
+      "url": "https://github.com/davidevertuani",
+      "maintainer": true
+    },
+    {
+      "name": "Mickael Hubert",
+      "email": "github@winlux.fr",
+      "url": "https://github.com/Mickaelh51"
+    },
+    {
+      "name": "Olivier Lebrun"
+    },
+    {
+      "name": "Dominique Pierre"
+    }
+  ],
+  "dependencies":
+  // todo subpubclient
+  // esp
+  {
+    "name": "MySensor",
+    "authors": "Henrik Ekblad",
+    "frameworks": "arduino"
+  },
+  "frameworks": "arduino",
+  "platforms": "atmelavr"
+}
